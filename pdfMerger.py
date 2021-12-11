@@ -10,5 +10,5 @@ for file in files:
     if file.endswith('pdf'):
         merger.append(file)
 
-merger.write('./output/final.pdf')
+merger.write('final.pdf')
 merger.close()
